@@ -246,15 +246,16 @@ body{
     padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 25px 15px;
+    grid-gap: 20px 12px;
 }
   
 .grid-catalog-item{
-    background: url(/img/lav_dream_1.png) no-repeat;
+    background: url(/img/lav_dream_1.jpg) no-repeat ;
     margin: 0;
     display: block; 
-    width: 252px;
-    height: 280px;
+    width: 242px;
+    height: 270px;
+    background-size: 242px 270px;
     position: relative;
     text-align: center;
 }
@@ -263,8 +264,8 @@ body{
       background: url(/img/lav_dream_2.png) no-repeat;
       margin: 0;
       padding: 0;
-      width: 252px;
-      height: 280px;
+      width: 242px;
+      height: 270px;
       color: #fff;
 }
   
@@ -357,15 +358,16 @@ body{
     background: url(/img/news.jpg) no-repeat;
     margin: 0;
     display: block; /*  Рисунок как блочный элемент */
-    width: 278px;
-    height: 384px;
+    width: 238px;
+    height: 328px;
+    background-size: 238px 328px;
     position: relative;
     text-align: left;
 }
 
 .grid-category{
     padding-left: 20px;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 1.8px;
     text-transform: uppercase;
     color: #fff;
@@ -375,9 +377,9 @@ body{
 .grid-name{
     padding-left: 20px;
     color: #fff;
-    font-size: 24px;
+    font-size: 19px;
     font-weight: 700;
-    padding-bottom: 180px;
+    padding-bottom: 170px;
 }
 
 .grid-link{
@@ -836,7 +838,7 @@ body{
         margin-left: 15px;
     }
     .nav{
-        font-size: 8px;
+        font-size: 6px;
         margin-right: 10px;
     }
     
